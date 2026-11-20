@@ -1,0 +1,11 @@
+{
+  "name": "KABORE ÉNERGIE",
+  "short_name": "KABORE",
+  "description": "KABORE ÉNERGIE propose des services d'installation électrique, d'énergie solaire, de rénovation et de groupes électrogènes au Burkina Faso.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#123b2a"
+}
