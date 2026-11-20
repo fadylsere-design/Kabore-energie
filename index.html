@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071a33">
+  <meta name="description" content="KABORE ÉNERGIE accompagne vos projets en électricité générale, énergie solaire, installations électriques, rénovation et maintenance de groupes électrogènes au Burkina Faso.">
+  <meta property="og:title" content="KABORE ÉNERGIE — Bâtir vos rêves, notre mission">
+  <meta property="og:description" content="Solutions électriques et énergétiques fiables pour les particuliers et les entreprises.">
+  <meta property="og:type" content="website">
+  <title>KABORE ÉNERGIE | Électricité, solaire et maintenance</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Aller au contenu</a>
+  <div class="topline">
+    <div class="container topline-inner">
+      <span data-i18n="topline">Des solutions énergétiques fiables pour vos projets</span>
+      <div class="topline-actions">
+        <a href="tel:+22604397171">+226 04 39 71 71</a>
+        <button class="lang-switch" id="languageToggle" type="button" aria-label="Switch language">EN</button>
+      </div>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="KABORE ÉNERGIE accueil">
+        <span class="brand-mark" aria-hidden="true">ϟ</span>
+        <span class="brand-copy"><strong>KABORE <em>ÉNERGIE</em></strong><small data-i18n="tagline">Bâtir vos rêves, notre mission</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home" data-i18n="navHome">Accueil</a>
+        <a href="#services" data-i18n="navServices">Services</a>
+        <a href="#about" data-i18n="navAbout">À propos</a>
+        <a href="#projects" data-i18n="navProjects">Réalisations</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+        <a class="nav-cta" href="#quote" data-i18n="navQuote">Demander un devis</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="Panneaux solaires et installation énergétique"></div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="heroEyebrow">ÉLECTRICITÉ • ÉNERGIE • MAINTENANCE</span></div>
+        <h1 data-i18n="heroTitle">L’énergie qui<br><span>fait avancer</span><br>vos projets.</h1>
+        <p class="hero-text" data-i18n="heroText">Des solutions électriques et énergétiques pensées pour la fiabilité, la performance et la durée.</p>
+        <div class="hero-actions">
+          <a class="btn btn-yellow" href="#quote" data-i18n="heroCta">Parler de votre projet <span>↗</span></a>
+          <a class="btn btn-ghost" href="#services" data-i18n="heroSecondary">Découvrir nos services</a>
+        </div>
+        <div class="hero-note"><span class="pulse-dot"></span><span data-i18n="heroNote">À vos côtés, de l’étude à la maintenance</span></div>
+      </div>
+      <div class="hero-stamp"><span>KE</span><small data-i18n="stamp">ÉNERGIE<br>DE DEMAIN</small></div>
+    </section>
+
+    <section class="trust-strip" aria-label="Engagements">
+      <div class="container trust-grid">
+        <div class="trust-item"><span class="trust-icon">✓</span><div><strong data-i18n="trust1Title">Qualité</strong><small data-i18n="trust1Text">Le travail bien fait</small></div></div>
+        <div class="trust-item"><span class="trust-icon">◷</span><div><strong data-i18n="trust2Title">Engagement</strong><small data-i18n="trust2Text">Respect des délais convenus</small></div></div>
+        <div class="trust-item"><span class="trust-icon">◇</span><div><strong data-i18n="trust3Title">Confiance</strong><small data-i18n="trust3Text">Une relation durable</small></div></div>
+        <div class="trust-item"><span class="trust-icon">ϟ</span><div><strong data-i18n="trust4Title">Innovation</strong><small data-i18n="trust4Text">Des solutions adaptées</small></div></div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-kicker" data-i18n="servicesKicker">CE QUE NOUS FAISONS</p><h2 data-i18n="servicesTitle">Des solutions pour <span>chaque besoin.</span></h2></div>
+          <p data-i18n="servicesIntro">Nous accompagnons vos projets résidentiels, commerciaux et industriels avec une approche orientée sécurité, efficacité et fiabilité.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card" onclick="window.location.href='electricite.html'" style="cursor:pointer;">
+            <div class="service-number">01</div><div class="service-symbol">ϟ</div>
+            <h3 data-i18n="service1Title">Électricité générale</h3>
+            <p data-i18n="service1Text">Étude et travaux électriques pour les environnements résidentiels, commerciaux et industriels.</p>
+            <a href="#quote" class="text-link" data-service="Électricité générale" data-i18n="learnMore">Parlons de votre besoin <span>↗</span></a>
+          </article>
+          <article class="service-card featured" onclick="window.location.href='solaire.html'" style="cursor:pointer;">
+            <div class="service-number">02</div><div class="service-symbol">☼</div>
+            <h3 data-i18n="service2Title">Énergie solaire</h3>
+            <p data-i18n="service2Text">Étude, installation de panneaux photovoltaïques et solutions solaires adaptées à votre projet.</p>
+            <a href="#quote" class="text-link" data-service="Énergie solaire" data-i18n="learnMore">Parlons de votre besoin <span>↗</span></a>
+          </article>
+          <article class="service-card" onclick="window.location.href='renovation.html'" style="cursor:pointer;">
+            <div class="service-number">03</div><div class="service-symbol">⌁</div>
+            <h3 data-i18n="service3Title">Installation & rénovation</h3>
+            <p data-i18n="service3Text">Installations neuves, mise à niveau et rénovation pour répondre à vos usages.</p>
+            <a href="#quote" class="text-link" data-service="Installation et rénovation" data-i18n="learnMore">Parlons de votre besoin <span>↗</span></a>
+          </article>
+          <article class="service-card" onclick="window.location.href='groupes-electrogenes.html'" style="cursor:pointer;">
+            <div class="service-number">04</div><div class="service-symbol">⚙</div>
+            <h3 data-i18n="service4Title">Groupes électrogènes</h3>
+            <p data-i18n="service4Text">Maintenance et dépannage pour soutenir la continuité de vos activités.</p>
+            <a href="#quote" class="text-link" data-service="Groupes électrogènes" data-i18n="learnMore">Parlons de votre besoin <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <div class="about-photo" role="img" aria-label="Installation technique sur un chantier"></div>
+          <div class="about-badge"><span class="badge-lightning">ϟ</span><strong data-i18n="aboutBadge">Bâtir vos rêves,<br>notre mission.</strong></div>
+          <div class="photo-caption"><span class="caption-dot"></span><span data-i18n="photoPlaceholder">Visuel illustratif — à remplacer par une photo réelle de chantier</span></div>
+        </div>
+        <div class="about-copy">
+          <p class="section-kicker" data-i18n="aboutKicker">À PROPOS DE KABORE ÉNERGIE</p>
+          <h2 data-i18n="aboutTitle">La bonne énergie pour <span>aller plus loin.</span></h2>
+          <p data-i18n="aboutText">KABORE ÉNERGIE accompagne les particuliers et les organisations dans leurs besoins en électricité et en énergie. Notre ambition est de proposer des solutions adaptées, avec une attention particulière portée à la qualité du travail, à la sécurité et à la satisfaction du client.</p>
+          <ul class="check-list">
+            <li data-i18n="aboutPoint1">Des solutions adaptées à chaque projet</li>
+            <li data-i18n="aboutPoint2">Une attention portée à la qualité et à la sécurité</li>
+            <li data-i18n="aboutPoint3">Un accompagnement de la demande à la réalisation</li>
+          </ul>
+          <a class="btn btn-dark" href="#contact" data-i18n="aboutCta">Échangeons sur votre projet <span>↗</span></a>
+          <p class="claim-note" data-i18n="claimNote">Les références, certifications et chiffres clés seront ajoutés après validation par l’entreprise.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-kicker" data-i18n="projectsKicker">SUR LE TERRAIN</p><h2 data-i18n="projectsTitle">Nos réalisations, <span>bientôt ici.</span></h2></div>
+          <p data-i18n="projectsIntro">Cette galerie sera alimentée avec les photos réelles des chantiers de KABORE ÉNERGIE, après validation du client.</p>
+        </div>
+        <div class="project-placeholder-grid">
+          <div class="project-placeholder project-one"><span>01</span><div><strong data-i18n="project1Title">Installation électrique</strong><small data-i18n="projectPlaceholder">Photo réelle à ajouter</small></div></div>
+          <div class="project-placeholder project-two"><span>02</span><div><strong data-i18n="project2Title">Solution solaire</strong><small data-i18n="projectPlaceholder">Photo réelle à ajouter</small></div></div>
+          <div class="project-placeholder project-three"><span>03</span><div><strong data-i18n="project3Title">Maintenance énergétique</strong><small data-i18n="projectPlaceholder">Photo réelle à ajouter</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section section" id="quote">
+      <div class="container quote-grid">
+        <div class="quote-copy">
+          <p class="section-kicker" data-i18n="quoteKicker">VOTRE PROJET COMMENCE ICI</p>
+          <h2 data-i18n="quoteTitle">Parlons de votre <span>prochain projet.</span></h2>
+          <p data-i18n="quoteText">Décrivez-nous votre besoin. Vous pourrez envoyer votre demande à notre équipe via WhatsApp pour un premier échange.</p>
+          <div class="quote-points"><span>✓ <span data-i18n="quotePoint1">Demande simple et rapide</span></span><span>✓ <span data-i18n="quotePoint2">Particuliers et professionnels</span></span><span>✓ <span data-i18n="quotePoint3">Projets au Burkina Faso et demandes internationales à étudier</span></span></div>
+        </div>
+        <form class="quote-form" id="quoteForm">
+          <div class="form-row">
+            <label><span data-i18n="formName">Nom complet *</span><input name="name" required autocomplete="name" placeholder="Ex. Awa Traoré"></label>
+            <label><span data-i18n="formCompany">Entreprise (facultatif)</span><input name="company" autocomplete="organization" placeholder="Nom de l'entreprise"></label>
+          </div>
+          <div class="form-row">
+            <label><span data-i18n="formEmail">E-mail *</span><input name="email" type="email" required autocomplete="email" placeholder="vous@exemple.com"></label>
+            <label><span data-i18n="formPhone">Téléphone / WhatsApp *</span><input name="phone" type="tel" required autocomplete="tel" placeholder="+226 ..."></label>
+          </div>
+          <label><span data-i18n="formService">Service recherché *</span>
+            <select name="service" required>
+              <option value="" data-i18n="formSelect">Choisir un service</option>
+              <option data-i18n="service1Title">Électricité générale</option>
+              <option data-i18n="service2Title">Énergie solaire</option>
+              <option data-i18n="service3Title">Installation & rénovation</option>
+              <option data-i18n="service4Title">Groupes électrogènes</option>
+              <option value="Autre" data-i18n="formOther">Autre demande</option>
+            </select>
+          </label>
+          <label><span data-i18n="formLocation">Ville / pays du projet *</span><input name="location" required placeholder="Ex. Ouagadougou, Burkina Faso"></label>
+          <label><span data-i18n="formMessage">Décrivez votre projet *</span><textarea name="message" required rows="4" placeholder="Parlez-nous de votre besoin..."></textarea></label>
+          <button class="btn btn-yellow form-submit" type="submit"><span data-i18n="formSubmit">Préparer la demande sur WhatsApp</span><span>↗</span></button>
+          <p class="form-note" data-i18n="formNote">Le bouton ouvrira WhatsApp avec votre demande préremplie. Vérifiez les informations avant l’envoi.</p>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-card">
+        <div><p class="section-kicker" data-i18n="contactKicker">RESTONS EN CONTACT</p><h2 data-i18n="contactTitle">Une question ? <span>Un projet ?</span></h2><p data-i18n="contactText">Contactez KABORE ÉNERGIE pour discuter de vos besoins et des prochaines étapes.</p></div>
+        <div class="contact-methods">
+          <a class="contact-method" href="https://wa.me/22604397171" target="_blank" rel="noopener"><span class="method-icon">◉</span><span><small data-i18n="whatsappLabel">WhatsApp / Téléphone</small><strong>+226 04 39 71 71</strong></span><b>↗</b></a>
+          <a class="contact-method" href="https://wa.me/22673050102" target="_blank" rel="noopener"><span class="method-icon">◉</span><span><small data-i18n="whatsappLabel">WhatsApp / Téléphone</small><strong>+226 73 05 01 02</strong></span><b>↗</b></a>
+          <a class="contact-method" href="mailto:Lkabore81@gmail.com"><span class="method-icon">✉</span><span><small data-i18n="emailLabel">E-mail actuel</small><strong>Lkabore81@gmail.com</strong></span><b>↗</b></a>
+          <div class="contact-method"><span class="method-icon">⌖</span><span><small data-i18n="coverageLabel">Zone d’intervention</small><strong data-i18n="coverage">Partout au Burkina Faso</strong></span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark">ϟ</span><span class="brand-copy"><strong>KABORE <em>ÉNERGIE</em></strong><small data-i18n="tagline">Bâtir vos rêves, notre mission</small></span></a>
+      <p data-i18n="footerLine">Des solutions énergétiques pour construire l’avenir.</p>
+      <a href="#home" class="back-top" aria-label="Retour en haut">↑</a>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> KABORE ÉNERGIE.</span><span data-i18n="footerRights">Tous droits réservés.</span><span class="dev-note" data-i18n="footerDev">Site en préparation — informations à valider avant publication.</span></div>
+  </footer>
+  <a class="floating-whatsapp" href="https://wa.me/22604397171" target="_blank" rel="noopener" aria-label="Contacter KABORE ÉNERGIE sur WhatsApp">◉</a>
+</body>
+</html>
